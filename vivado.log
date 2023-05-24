@@ -1,0 +1,358 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 24 19:20:45 2023
+# Process ID: 5232
+# Current directory: C:/Users/Amalia/OneDrive/Desktop/project_lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2728 C:\Users\Amalia\OneDrive\Desktop\project_lab4\project_lab4.xpr
+# Log file: C:/Users/Amalia/OneDrive/Desktop/project_lab4/vivado.log
+# Journal file: C:/Users/Amalia/OneDrive/Desktop/project_lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Amalia/OneDrive/Desktop/CN/project_lab4' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 24 19:25:28 2023...
+ching behavioral simulation in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj simulation_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/iesire.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iesire
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/intrare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module intrare
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/sumator4b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sumator4b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/uat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uat
+INFO: [VRFC 10-2458] undeclared symbol c2, assumed default net type wire [C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/uat.v:16]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_iesire_0_0/sim/design_1_iesire_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_iesire_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_intrare_0_0/sim/design_1_intrare_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_intrare_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_sumator4b_0_0/sim/design_1_sumator4b_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_sumator4b_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_sumator4b_1_0/sim/design_1_sumator4b_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_sumator4b_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_uat_0_0/sim/design_1_uat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_uat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/imports/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sim_1/new/simulare1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simulation
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+"xelab -wto f05cb7390c4e41c989d11c4a5a683984 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simulation_behav xil_defaultlib.simulation xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto f05cb7390c4e41c989d11c4a5a683984 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simulation_behav xil_defaultlib.simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'a_0' [C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/imports/design_1_wrapper.v:22]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'b_0' [C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/imports/design_1_wrapper.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.iesire
+Compiling module xil_defaultlib.design_1_iesire_0_0
+Compiling module xil_defaultlib.intrare
+Compiling module xil_defaultlib.design_1_intrare_0_0
+Compiling module xil_defaultlib.sumator4b
+Compiling module xil_defaultlib.design_1_sumator4b_0_0
+Compiling module xil_defaultlib.design_1_sumator4b_1_0
+Compiling module xil_defaultlib.uat
+Compiling module xil_defaultlib.design_1_uat_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "simulation_behav -key {Behavioral:sim_1:Functional:simulation} -tclbatch {simulation.tcl} -protoinst "protoinst_files/design_1.protoinst" -view {C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sim_1/imports/lab4/simulation_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sim_1/imports/lab4/simulation_behav.wcfg
+source simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1104.789 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+generate_target Simulation [get_files C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/a'(8) to pin '/a_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/b'(8) to pin '/b_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/synth/design_1.v
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/a'(8) to pin '/a_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/b'(8) to pin '/b_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Exporting to file c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/synth/design_1.hwdef
+export_ip_user_files -of_objects [get_files C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files -ipstatic_source_dir C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.cache/compile_simlib/modelsim} {questa=C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.cache/compile_simlib/questa} {riviera=C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.cache/compile_simlib/riviera} {activehdl=C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/a'(8) to pin '/a_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/b'(8) to pin '/b_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/synth/design_1.v
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/a'(8) to pin '/a_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/b'(8) to pin '/b_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Exporting to file c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/synth/design_1.hwdef
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Simulation'. Expected 'Generated', got 'Stale' for source 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj simulation_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/iesire.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iesire
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/intrare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module intrare
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/sumator4b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sumator4b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/uat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uat
+INFO: [VRFC 10-2458] undeclared symbol c2, assumed default net type wire [C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/uat.v:16]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_iesire_0_0/sim/design_1_iesire_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_iesire_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_intrare_0_0/sim/design_1_intrare_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_intrare_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_sumator4b_0_0/sim/design_1_sumator4b_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_sumator4b_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_sumator4b_1_0/sim/design_1_sumator4b_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_sumator4b_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_uat_0_0/sim/design_1_uat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_uat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/imports/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sim_1/new/simulare1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+"xelab -wto f05cb7390c4e41c989d11c4a5a683984 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simulation_behav xil_defaultlib.simulation xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto f05cb7390c4e41c989d11c4a5a683984 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simulation_behav xil_defaultlib.simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'a_0' [C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/imports/design_1_wrapper.v:22]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'b_0' [C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/imports/design_1_wrapper.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.iesire
+Compiling module xil_defaultlib.design_1_iesire_0_0
+Compiling module xil_defaultlib.intrare
+Compiling module xil_defaultlib.design_1_intrare_0_0
+Compiling module xil_defaultlib.sumator4b
+Compiling module xil_defaultlib.design_1_sumator4b_0_0
+Compiling module xil_defaultlib.design_1_sumator4b_1_0
+Compiling module xil_defaultlib.uat
+Compiling module xil_defaultlib.design_1_uat_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "simulation_behav -key {Behavioral:sim_1:Functional:simulation} -tclbatch {simulation.tcl} -protoinst "protoinst_files/design_1.protoinst" -view {C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sim_1/imports/lab4/simulation_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sim_1/imports/lab4/simulation_behav.wcfg
+source simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:16 . Memory (MB): peak = 1151.770 ; gain = 10.156
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+generate_target Simulation [get_files C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/a'(8) to pin '/a_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/b'(8) to pin '/b_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/synth/design_1.v
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/a'(8) to pin '/a_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/b'(8) to pin '/b_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Exporting to file c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/synth/design_1.hwdef
+export_ip_user_files -of_objects [get_files C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files -ipstatic_source_dir C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.cache/compile_simlib/modelsim} {questa=C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.cache/compile_simlib/questa} {riviera=C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.cache/compile_simlib/riviera} {activehdl=C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/a'(8) to pin '/a_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/b'(8) to pin '/b_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/synth/design_1.v
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/a'(8) to pin '/a_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/intrare_0/b'(8) to pin '/b_0'(16) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+Exporting to file c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File c:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.gen/sources_1/bd/design_1/synth/design_1.hwdef
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Simulation'. Expected 'Generated', got 'Stale' for source 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj simulation_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/iesire.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iesire
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/intrare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module intrare
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/sumator4b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sumator4b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/uat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uat
+INFO: [VRFC 10-2458] undeclared symbol c2, assumed default net type wire [C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/new/uat.v:16]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_iesire_0_0/sim/design_1_iesire_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_iesire_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_intrare_0_0/sim/design_1_intrare_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_intrare_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_sumator4b_0_0/sim/design_1_sumator4b_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_sumator4b_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_sumator4b_1_0/sim/design_1_sumator4b_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_sumator4b_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/ip/design_1_uat_0_0/sim/design_1_uat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_uat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/imports/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sim_1/new/simulare1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simulation
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+"xelab -wto f05cb7390c4e41c989d11c4a5a683984 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simulation_behav xil_defaultlib.simulation xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto f05cb7390c4e41c989d11c4a5a683984 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simulation_behav xil_defaultlib.simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'a_0' [C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/imports/design_1_wrapper.v:22]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'b_0' [C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sources_1/imports/design_1_wrapper.v:23]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.iesire
+Compiling module xil_defaultlib.design_1_iesire_0_0
+Compiling module xil_defaultlib.intrare
+Compiling module xil_defaultlib.design_1_intrare_0_0
+Compiling module xil_defaultlib.sumator4b
+Compiling module xil_defaultlib.design_1_sumator4b_0_0
+Compiling module xil_defaultlib.design_1_sumator4b_1_0
+Compiling module xil_defaultlib.uat
+Compiling module xil_defaultlib.design_1_uat_0_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot simulation_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "simulation_behav -key {Behavioral:sim_1:Functional:simulation} -tclbatch {simulation.tcl} -protoinst "protoinst_files/design_1.protoinst" -view {C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sim_1/imports/lab4/simulation_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+Time resolution is 1 ps
+open_wave_config C:/Users/Amalia/OneDrive/Desktop/project_lab4/project_lab4.srcs/sim_1/imports/lab4/simulation_behav.wcfg
+source simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 1157.875 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 24 19:25:21 2023...
